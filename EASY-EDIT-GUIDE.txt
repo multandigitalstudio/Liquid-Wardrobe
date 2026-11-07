@@ -1,0 +1,28 @@
+LIQUID WARDROBE — EASY EDIT GUIDE (NO CODING REQUIRED FOR VIDEO)
+
+1) CHANGE THE TUTORIAL VIDEO
+   - Open the videos folder.
+   - Put your new MP4 video inside it.
+   - Rename the new video exactly: machine-video.mp4
+   - If Windows asks whether to replace the existing file, choose Yes.
+   - Keep the folder name videos unchanged.
+   - No code changes are needed for the tutorial video.
+
+2) CHANGE THE WEBSITE NAME / WORDING
+   - The current website text is written in index.html.
+   - For simple edits, open index.html in VS Code and use Ctrl+H (Find and Replace).
+   - Example: find "Liquid Wardrobe" and replace it with your brand name.
+   - Review each replacement before choosing Replace All, because the name may also occur in image alt text and page title.
+   - Product names are in the section marked OUR PRODUCTS.
+   - Tutorial heading and description are in the section marked HOW TO USE.
+
+3) CHANGE MACHINE PHOTO
+   - Put the photo in the images folder and name it machine.jpg.
+   - No code changes are needed if the filename is exactly images/machine.jpg.
+
+4) IMPORTANT
+   - The ZIP you sent does not contain a video file yet; the videos folder is empty.
+   - It also does not contain images/machine.jpg.
+   - The existing page currently shows placeholders until you add these files.
+   - Keep index.html, style.css, and script.js in the same main folder.
+   - Do not rename the videos or images folders.

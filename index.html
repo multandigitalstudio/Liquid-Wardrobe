@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover luxury, niche and designer fragrances by the spray or shop authentic full bottles with Liquid Wardrobe.">
+  <title>Liquid Wardrobe | Elevate Your Scent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Liquid Wardrobe home"><img class="brand-logo" src="images/logo.png" alt="Liquid Wardrobe original blue perfume logo"><span class="brand-name-fallback">LIQUID<br>WARDROBE</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">⋮</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Our Products</a>
+      <div class="nav-dropdown" id="hostDropdown">
+        <div class="nav-dropdown-heading">
+          <a href="#host-machine" class="nav-dropdown-trigger">Host a Machine</a>
+          <button class="submenu-toggle" id="submenuToggle" type="button" aria-label="Open Host a Machine submenu" aria-expanded="false">⌄</button>
+        </div>
+        <div class="nav-dropdown-menu" id="hostSubmenu">
+          <a href="#machine">Our Machine</a>
+          <a href="#tutorial">Tutorial</a>
+          <a href="#partnership">Partnership Options</a>
+        </div>
+      </div>
+      <a class="nav-purchase" href="#purchase">Purchase a Fragrance</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-outline header-cta" href="#contact">Get in touch</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">YOUR SCENT. YOUR SIGNATURE.</p>
+        <h1>Elevate Your Scent.<br><em>Anywhere. Anytime.</em></h1>
+        <p class="hero-description">Discover luxury, niche, and designer fragrances by the spray via our smart vending machines—or order your favorite full bottles delivered straight to your door.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#products">Explore Products <span>→</span></a>
+          <a class="button button-outline" href="#tutorial"><span class="play-icon">▶</span> Watch Video</a>
+        </div>
+        <div class="hero-benefits">
+          <span><b>🇺🇸</b> Veteran-Owned<br>& Operated</span>
+          <span><b>🏛️</b> Choctaw Tribal<br>Member Owned</span>
+          <span><b>💎</b> 100% Authentic<br>Fragrances</span>
+          <span><b>🤖</b> Smart Automated<br>Retail</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="sparkle sparkle-one">✦</span>
+        <span class="sparkle sparkle-two">✧</span>
+        <img class="hero-art" src="images/hero-art.png" alt="Liquid Wardrobe blue fragrance emblem surrounded by elegant flowers and golden accents">
+        <p class="hero-side-note">LIQUID WARDROBE<br><em>More Than a Scent</em></p>
+      </div>
+    </section>
+
+    <section class="about section-wrap section-grid" id="about">
+      <div class="about-visual reveal">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85" alt="Luxury perfume bottle in warm light" loading="lazy">
+      </div>
+      <div class="section-copy reveal">
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Welcome to <em>Liquid Wardrobe</em></h2>
+        <p>Smelling good is a personal signature, but carrying a full bottle of luxury perfume isn't always practical. Liquid Wardrobe bridges the gap between premium scents and modern convenience bringing high-end designer and niche fragrances directly to modern nightlife, gaming, and wellness venues by the spray, while offering full-sized bottles online for fragrance enthusiasts everywhere.</p>
+      </div>
+    </section>
+
+    <section class="story-section section-wrap" id="brand-story">
+      <div class="section-copy reveal">
+        <p class="eyebrow">OUR BRAND STORY</p>
+        <h2>Crafted by Experience.<br><em>Driven by Innovation.</em></h2>
+        <p>Liquid Wardrobe was born out of a simple observation: life moves fast, and your signature scent should keep up with you. Whether you're stepping out for a night on the town, hitting the gym, or trying your luck at the casino, looking and feeling your best should be complete with a touch of luxury.</p>
+        <p>Founded by serial entrepreneur, U.S. veteran, and Choctaw tribal member Steve McKinney, Liquid Wardrobe is built on values of integrity, service, and innovation. With decades of small-business leadership, Steve created Liquid Wardrobe to revolutionize how people access fine fragrance—combining cutting-edge automated retail technology with curated scent collections.</p>
+      </div>
+      <div class="mission-panel reveal" id="mission">
+        <p class="eyebrow">OUR MISSION</p>
+        <h2>Mission <em>Statement</em></h2>
+        <p>To make luxury and niche fragrances effortlessly accessible, empower nightlife and hospitality venues with seamless revenue streams, and deliver exceptional scent experiences both on-the-go and at home.</p>
+      </div>
+    </section>
+
+    <section class="products section-wrap" id="products">
+      <div class="products-heading reveal">
+        <div>
+          <p class="eyebrow">OUR PRODUCTS</p>
+          <h2>Discover Signature<br><em>Fragrances</em></h2>
+          <p>Explore fragrance families and find a scent that feels like you.</p>
+        </div>
+        <div class="carousel-controls">
+          <button class="arrow-button" id="productPrev" aria-label="Scroll products left">←</button>
+          <button class="arrow-button" id="productNext" aria-label="Scroll products right">→</button>
+        </div>
+      </div>
+
+      <div class="product-track-wrap">
+        <div class="product-track" id="productTrack">
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=85" alt="Blue perfume bottle" loading="lazy">
+            <div class="product-card-copy"><h3>Fresh & Vibrant</h3><p>Citrus · Aqua · Musk</p></div>
+          </article>
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=600&q=85" alt="Amber perfume bottle" loading="lazy">
+            <div class="product-card-copy"><h3>Warm & Woody</h3><p>Amber · Wood · Spice</p></div>
+          </article>
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=600&q=85" alt="Elegant fragrance bottle" loading="lazy">
+            <div class="product-card-copy"><h3>Soft & Floral</h3><p>Rose · Jasmine · Vanilla</p></div>
+          </article>
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=600&q=85" alt="Dark luxury perfume bottle" loading="lazy">
+            <div class="product-card-copy"><h3>Bold & Mystique</h3><p>Oud · Leather · Amber</p></div>
+          </article>
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=85" alt="Signature fragrance bottle" loading="lazy">
+            <div class="product-card-copy"><h3>Modern Classic</h3><p>Clean · Refined · Timeless</p></div>
+          </article>
+        </div>
+      </div>
+      <p class="demo-note">Demo fragrance categories — replace with the client’s approved products and images.</p>
+
+      <div class="ticker ticker-forward" aria-label="Fragrance categories">
+        <div class="ticker-track"><span>FIND YOUR SIGNATURE</span><b>✦</b><span>DISCOVER SOMETHING NEW</span><b>✦</b><span>FIND YOUR SIGNATURE</span><b>✦</b><span>DISCOVER SOMETHING NEW</span><b>✦</b></div>
+      </div>
+      <div class="ticker ticker-reverse" aria-label="Liquid Wardrobe brand message">
+        <div class="ticker-track"><span>MORE THAN A SCENT</span><b>✧</b><span>YOUR SCENT, YOUR STORY</span><b>✧</b><span>MORE THAN A SCENT</span><b>✧</b><span>YOUR SCENT, YOUR STORY</span><b>✧</b></div>
+      </div>
+    </section>
+
+    <section class="machine section-wrap section-grid" id="machine">
+      <div class="machine-photo reveal">
+        <img src="images/machine.jpg" alt="Liquid Wardrobe smart fragrance vending machine" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="machine-placeholder"><span>YOUR MACHINE PHOTO</span><small>Add the client’s clear machine image as <code>images/machine.jpg</code></small></div>
+      </div>
+      <div class="section-copy reveal">
+        <p class="eyebrow">OUR MACHINE</p>
+        <h2>Smart. Stylish.<br><em>Innovative.</em></h2>
+        <p>Discover a new way to experience fragrance. Choose a scent, follow the simple instructions and enjoy your fragrance moment.</p>
+        <div class="feature-list"><span>◎ Touch-screen interface</span><span>◇ Multiple fragrances</span><span>☆ Modern design</span></div>
+        <a class="button button-gold" href="#tutorial">Watch Tutorial <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="tutorial section-wrap section-grid" id="tutorial">
+      <div class="section-copy reveal">
+        <p class="eyebrow">HOW TO USE</p>
+        <h2>Simple Steps,<br><em>Beautiful Scents.</em></h2>
+        <p>Follow the quick guide to enjoy your fragrance in just a few simple steps.</p>
+        <ol class="steps">
+          <li><b>1</b><span>Select your fragrance</span></li>
+          <li><b>2</b><span>Follow the payment instructions</span></li>
+          <li><b>3</b><span>Enjoy your scent</span></li>
+        </ol>
+      </div>
+      <div class="video-card reveal">
+        <video id="tutorialVideo" controls playsinline preload="metadata" poster="images/machine.jpg" hidden>
+          <source src="videos/machine-video.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <div id="videoPlaceholder" class="video-placeholder">
+          <div class="video-placeholder-copy">
+            <span class="placeholder-play" aria-hidden="true">▶</span>
+            <h3>How to Use the Machine</h3>
+            <p>Your step-by-step tutorial video will appear here.</p>
+            <small>When you receive the video, save it as <strong>videos/machine-video.mp4</strong>.</small>
+          </div>
+        </div>
+        <p class="demo-note">Video-ready section — no code changes needed when you add the MP4 file.</p>
+      </div>
+    </section>
+
+
+<section class="host-section section-wrap" id="host-machine">
+  <div class="host-intro reveal">
+    <p class="eyebrow">HOST A MACHINE</p>
+    <h2>Transform Empty Wall Space into <em>Premium Revenue</em></h2>
+    <p>Elevate your venue’s guest experience with a sleek, automated Liquid Wardrobe fragrance bar. Perfect for high-traffic environments—including nightclubs, casinos, gyms, and luxury venues—our machines offer guests instant access to top-tier scents when they want them most.</p>
+    <p>We make partnership simple with three flexible revenue-sharing models designed to fit your business goals.</p>
+  </div>
+  <div class="partnership-wrap reveal" id="partnership">
+    <h3>Partnership Options</h3>
+    <div class="table-scroll">
+      <table class="partnership-table">
+        <thead><tr><th>Option</th><th>Setup</th><th>Revenue Share</th><th>Servicing &amp; Stocking</th></tr></thead>
+        <tbody>
+          <tr><td>1. Full Turnkey Service</td><td>$0 Investment</td><td>20% to Venue</td><td>100% Handled by Liquid Wardrobe</td></tr>
+          <tr><td>2. Machine Ownership</td><td>Purchase Machine</td><td>65% to Venue</td><td>35% Service Fee to Liquid Wardrobe</td></tr>
+          <tr><td>3. Monthly Rental</td><td>Set Monthly Fee</td><td>40% to Venue</td><td>60% Service Fee to Liquid Wardrobe</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="venue-benefits reveal">
+    <h3>Key Venue Benefits</h3>
+    <div class="benefit-grid">
+      <article><span>💡</span><h4>Zero Operational Friction</h4><p>Liquid Wardrobe handles stocking, maintenance, and upkeep across all models.</p></article>
+      <article><span>💳</span><h4>Modern Payment Options</h4><p>Cashless, fast, contactless transactions.</p></article>
+      <article><span>✨</span><h4>Enhanced Guest Experience</h4><p>Keeps nightlife, gaming, and fitness patrons feeling refreshed and confident.</p></article>
+      <article><span>📈</span><h4>Passive Income</h4><p>Turn underutilized footprint into an additional profit channel.</p></article>
+    </div>
+  </div>
+  <div class="partnership-cta reveal">
+    <h3>Interested in bringing Liquid Wardrobe to your venue?</h3>
+    <a class="button button-gold" href="#partnership-form">Request a Vending Partnership Quote <span>→</span></a>
+  </div>
+  <form class="partnership-form reveal" id="partnership-form">
+    <div class="form-heading">
+      <p class="eyebrow">LET'S PARTNER</p>
+      <h2>Partner with <em>Liquid Wardrobe</em></h2>
+      <p>Bring automated luxury fragrance to your guests. Fill out the form below, and our team will be in touch within 24–48 hours.</p>
+    </div>
+    <fieldset>
+      <legend>Section 1: Contact Information</legend>
+      <div class="form-grid">
+        <label>First Name *<input name="firstName" type="text" required></label>
+        <label>Last Name *<input name="lastName" type="text" required></label>
+        <label>Job Title / Role *<input name="jobTitle" type="text" placeholder="e.g., General Manager, Owner, Ops Director" required></label>
+        <label>Email Address *<input name="email" type="email" required></label>
+        <label>Phone Number *<input name="phone" type="tel" required></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Section 2: Venue Details</legend>
+      <div class="form-grid">
+        <label>Business / Venue Name *<input name="venueName" type="text" required></label>
+        <label>Venue Type *
+          <select name="venueType" required>
+            <option value="">Select venue type</option>
+            <option>Nightclub / Lounge</option><option>Casino / Gaming Center</option>
+            <option>Gym / Fitness Center</option><option>Hotel / Hospitality</option>
+            <option>Concert / Event Venue</option><option>Other</option>
+          </select>
+        </label>
+        <label class="full-field">Venue Street Address *<input name="streetAddress" type="text" required></label>
+        <label>City *<input name="city" type="text" required></label>
+        <label>State *<input name="state" type="text" required></label>
+        <label>ZIP Code *<input name="zip" type="text" required></label>
+        <label>Estimated Weekly Foot Traffic
+          <select name="weeklyFootTraffic">
+            <option value="">Select weekly visitors</option>
+            <option>Under 500 visitors / week</option><option>500 – 1,500 visitors / week</option>
+            <option>1,500 – 5,000 visitors / week</option><option>5,000+ visitors / week</option>
+          </select>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Section 3: Partnership &amp; Machine Setup</legend>
+      <p class="field-intro">Which partnership model are you most interested in? *</p>
+      <div class="choice-list">
+        <label><input type="radio" name="partnershipModel" value="Option 1: Full Turnkey Service" required> Option 1: Full Turnkey Service (Free installation, we handle everything, venue receives 20% of revenue)</label>
+        <label><input type="radio" name="partnershipModel" value="Option 2: Machine Ownership"> Option 2: Machine Ownership (Purchase machine, venue receives 65% of revenue, we stock/service for 35%)</label>
+        <label><input type="radio" name="partnershipModel" value="Option 3: Monthly Rental"> Option 3: Monthly Rental (Set monthly fee + venue receives 40% of revenue, we stock/service for 60%)</label>
+        <label><input type="radio" name="partnershipModel" value="Undecided / Consultation"> Undecided / Would like a consultation</label>
+      </div>
+      <div class="form-grid">
+        <label>Estimated Number of Machine Locations / Placements Needed
+          <select name="machineCount"><option value="">Select</option><option>1 Machine</option><option>2–3 Machines</option><option>4+ Machines / Multi-location rollout</option></select>
+        </label>
+      </div>
+      <p class="field-intro">Target Placement Area(s)</p>
+      <div class="choice-grid">
+        <label><input type="checkbox" name="placementAreas" value="Restrooms / Powder Rooms"> Restrooms / Powder Rooms</label>
+        <label><input type="checkbox" name="placementAreas" value="VIP / Lounge Area"> VIP / Lounge Area</label>
+        <label><input type="checkbox" name="placementAreas" value="Main Lobby / Entrance"> Main Lobby / Entrance</label>
+        <label><input type="checkbox" name="placementAreas" value="Locker Rooms"> Locker Rooms</label>
+        <label><input type="checkbox" name="placementAreas" value="Executive / Suite Levels"> Executive / Suite Levels</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Section 4: Additional Notes &amp; Submit</legend>
+      <label>Additional Comments or Questions<textarea name="comments" rows="4"></textarea></label>
+      <p class="field-intro">Preferred Contact Method</p>
+      <div class="choice-grid">
+        <label><input type="checkbox" name="contactMethod" value="Email"> Email</label>
+        <label><input type="checkbox" name="contactMethod" value="Phone Call"> Phone Call</label>
+        <label><input type="checkbox" name="contactMethod" value="Text Message"> Text Message</label>
+      </div>
+    </fieldset>
+    <button class="button button-gold" type="submit">Request Vending Partnership Quote <span>→</span></button>
+    <p class="form-status" id="partnershipFormStatus" role="status">Form preview: connect a form service before accepting live inquiries.</p>
+  </form>
+</section>
+
+<section class="purchase-section section-wrap section-grid" id="purchase">
+  <div class="purchase-visual reveal">
+    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85" alt="Luxury full-bottle fragrance collection" loading="lazy">
+  </div>
+  <div class="section-copy reveal">
+    <p class="eyebrow">PURCHASE A FRAGRANCE</p>
+    <h2>Take the Experience Home: <em>Full-Bottle Collection</em></h2>
+    <p>Found a scent you loved at one of our machines? Or looking to expand your personal scent wardrobe? Explore our curated online boutique featuring authentic designer favorites and hard-to-find niche fragrances. Direct shipping, 100% guaranteed authenticity, delivered right to your doorstep.</p>
+    <div class="shop-benefits">
+      <p><strong>100% Authentic:</strong> Sourced directly from trusted distributors.</p>
+      <p><strong>Curated Selection:</strong> Handpicked luxury and designer brands.</p>
+      <p><strong>Veteran &amp; Native-Owned:</strong> Supporting local, veteran-led entrepreneurship with every purchase.</p>
+    </div>
+    <a class="button button-gold" href="#purchase-interest">Shop Full Bottles Now <span>→</span></a>
+    <p class="demo-note" id="purchase-interest">Online store/order destination to be connected once the fragrance collection is finalized.</p>
+  </div>
+</section>
+
+    
+<section class="reviews section-wrap reveal" id="reviews">
+  <div class="reviews-heading">
+    <p class="eyebrow">KIND WORDS</p>
+    <h2>Customer <em>Reviews</em></h2>
+    <p class="reviews-intro">Share your Liquid Wardrobe experience and see reviews saved on this device.</p>
+  </div>
+  <div class="reviews-layout">
+    <form class="review-form" id="reviewForm">
+      <label for="reviewName">Your name</label>
+      <input id="reviewName" name="name" type="text" maxlength="50" placeholder="Enter your name" required>
+      <label>Your rating</label>
+      <div class="star-picker" role="radiogroup" aria-label="Choose a star rating">
+        <button type="button" class="rating-star is-selected" data-rating="5" aria-label="5 stars" aria-pressed="true">★</button>
+        <button type="button" class="rating-star" data-rating="4" aria-label="4 stars" aria-pressed="false">★</button>
+        <button type="button" class="rating-star" data-rating="3" aria-label="3 stars" aria-pressed="false">★</button>
+        <button type="button" class="rating-star" data-rating="2" aria-label="2 stars" aria-pressed="false">★</button>
+        <button type="button" class="rating-star" data-rating="1" aria-label="1 star" aria-pressed="false">★</button>
+      </div>
+      <label for="reviewText">Your review</label>
+      <textarea id="reviewText" name="review" rows="4" maxlength="500" placeholder="Tell us about your experience..." required></textarea>
+      <button class="button button-gold" type="submit">Post Review <span aria-hidden="true">→</span></button>
+      <small class="review-note">Demo mode: reviews are saved only in this browser. A shared public review system needs a database/backend.</small>
+    </form>
+    <div class="review-results">
+      <div class="review-summary">
+        <div><strong id="averageRating">—</strong><span class="summary-stars" aria-hidden="true">★★★★★</span><small id="reviewCount">No reviews yet</small></div>
+        <p>Customer feedback</p>
+      </div>
+      <div id="reviewList" class="review-list" aria-live="polite">
+        <div class="empty-reviews"><span>✦</span><h3>Your first review could be here</h3><p>Leave a rating and a few words about your experience.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="order-contact section-wrap" id="contact">
+      <div class="qr-panel reveal">
+        <div class="qr-placeholder" aria-label="QR code placeholder">QR<br><small>PLACEHOLDER</small></div>
+        <h3>Scan to Order</h3>
+        <p>Scan to explore or order your favourite fragrance.</p>
+        <p class="demo-note">Replace this demo box with the client’s real QR code.</p>
+      </div>
+      <div class="contact-copy reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let’s Make Every<br>Moment <em>Memorable.</em></h2>
+        <p>For enquiries, product information or support, contact Liquid Wardrobe.</p>
+        <div class="contact-links">
+          <a href="#" aria-label="WhatsApp contact">WhatsApp: add number</a>
+          <a href="mailto:hello@example.com">Email: add business email</a>
+          <a href="#" aria-label="Google reviews">Leave a Google Review</a>
+        </div>
+        <div class="social-links animated-socials" aria-label="Social media and contact links">
+  <a class="social-link facebook" href="#" aria-label="Facebook page (replace link)" title="Facebook"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.2H7.5V13h2.8v8z"/></svg></span><span>Facebook</span></a>
+  <a class="social-link instagram" href="#" aria-label="Instagram profile (replace link)" title="Instagram"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.7" cy="6.5" r="1" class="fill-dot"/></svg></span><span>Instagram</span></a>
+  <a class="social-link tiktok" href="#" aria-label="TikTok profile (replace link)" title="TikTok"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3v11.2a3.4 3.4 0 1 1-3-3.4V7.7a7 7 0 1 0 6.5 7V9.2a8.3 8.3 0 0 0 3.8 1.1V6.8A5.5 5.5 0 0 1 14 3z"/></svg></span><span>TikTok</span></a>
+  <a class="social-link youtube" href="#" aria-label="YouTube channel (replace link)" title="YouTube"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M23 7.1a3 3 0 0 0-2.1-2.2C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7.1 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.9a3 3 0 0 0 2.1 2.2c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.2 31 31 0 0 0 .5-4.9 31 31 0 0 0-.5-4.9z"/><path class="play-cutout" d="m9.5 8.5 6 3.5-6 3.5z"/></svg></span><span>YouTube</span></a>
+  <a class="social-link whatsapp" href="#" aria-label="WhatsApp number (replace link)" title="WhatsApp"><span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.4-4.7A8.5 8.5 0 1 1 20.5 11.7z"/><path d="M8.1 7.8c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.8 1.9c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.6-.1l1.8.9c.2.1.3.3.3.5 0 .3-.2 1.1-.7 1.5-.5.5-1.2.7-1.9.6-1.1-.2-2.5-.8-3.8-2.1-1.4-1.4-2.2-2.8-2.4-3.9-.2-.8.2-1.5.6-1.8z"/></svg></span><span>WhatsApp</span></a>
+  <a class="social-link google-review" href="#" aria-label="Google review page (replace link)" title="Leave a Google review"><span class="social-icon google-g" aria-hidden="true">G</span><span>Leave a Google Review</span></a>
+</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home" aria-label="Liquid Wardrobe home"><img class="footer-logo" src="images/logo.png" alt="Liquid Wardrobe original blue perfume logo"><span class="brand-name-fallback">LIQUID<br>WARDROBE</span></a>
+    <p>A modern approach to fragrance discovery.</p>
+    <small>© <span id="year"></span> Liquid Wardrobe. All rights reserved.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
